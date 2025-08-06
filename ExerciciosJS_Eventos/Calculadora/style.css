@@ -1,0 +1,52 @@
+.calculadora{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: orange;
+    text-align: center;
+}
+
+.box{
+     background-color: gray;
+     margin: -15px;
+     padding: 20px;
+}
+
+.box2{
+     background-color: white;
+     margin: -15px;
+     padding: 20px;
+}
+
+h1{
+    font-size: 33px;
+}
+
+label{
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 18px;
+    padding-right: 150px;
+}
+
+input[type = "number"]{
+    width: 70%;
+    margin-right: 100px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.botoes{
+   margin-top: 15px;
+    display: flex;          
+    justify-content: flex-start; 
+    flex-wrap: wrap;        
+    gap: 6px;        
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 21px;
+    margin-right: 160px;
+    font-weight: bold;
+}
